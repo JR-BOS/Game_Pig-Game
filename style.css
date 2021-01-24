@@ -63,16 +63,6 @@ main {
   margin-bottom: auto;
 }
 
-.player--active {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-.player--active .name {
-  font-weight: 700;
-}
-.player--active .score {
-  font-weight: 400;
-}
-
 .player--active .current {
   opacity: 1;
 }
@@ -164,4 +154,18 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.player--active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.player--active .name {
+  font-weight: 700;
+}
+.player--active .score {
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
 }
